@@ -17,7 +17,7 @@ def parse_agrs():
     # Data input settings
     parser.add_argument('--image_dir', type=str, default='data/iu_xray/images/',
                         help='the path to the directory containing the data.')
-    parser.add_argument('--ann_path', type=str, default='data/iu_xray/annotation.json',
+    parser.add_argument('--ann_path', type=str, default='data/iu_xray/annotation_fixed.json',
                         help='the path to the directory containing the data.')
 
     # Data loader settings
